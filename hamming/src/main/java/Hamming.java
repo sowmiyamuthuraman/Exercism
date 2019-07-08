@@ -13,7 +13,7 @@ class Hamming {
         this.rightStrand = rightStrand;
     }
 
-    int getHammingDistance() throws IllegalArgumentException {
+    int getHammingDistance(){
         int hammingDistance = 0;
 
         for (int i = 0; i < leftStrand.length(); i++) {
